@@ -689,7 +689,18 @@ footer p {
 }
 
 .paragraph-about {
-  padding: 0px 100px;
+  padding: 100px 100px 10px 100px;
+
+  font-family: var(--regular-font);
+  color: var(--darkgrey);
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.75;
+  text-align: center;
+}
+
+.paragraph-cv {
+  padding: 0px 100px 10px 100px;
 
   font-family: var(--regular-font);
   color: var(--darkgrey);
@@ -716,7 +727,7 @@ footer p {
 
 /* About :HOVER */
 
-.link-cv .paragraph-about:hover {
+.link-cv .paragraph-cv:hover {
   color: var(--red);
 }
 
